@@ -225,7 +225,7 @@ Une attention particulière a été portée aux éléments suivants :
 
 Voici un aperçu du tableau de bord : 
 
-![Capture d'écran du tableau de bord](docs/dashboard.png)
+<img width="1424" height="1024" alt="dashboard" src="https://github.com/user-attachments/assets/74581cae-a213-462c-8b00-8e08b5051904" />
 
 ---
 
