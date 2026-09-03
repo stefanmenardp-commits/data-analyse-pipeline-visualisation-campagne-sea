@@ -126,10 +126,11 @@ Les champs et valeurs exacts ne sont pas publiés dans ce référentiel.
 
 L'architecture générale suivait le schéma suivant :
 
+```text
 **Sources de données**
      │
      ├── Plateformes SEA (GAds, Meta Ads, Bing Ads, Taboola, etc.)
-     ├── Sources externes
+     ├── Sources externes (Pages jaunes, Données déclaratives utilisateurs)
      │
      ▼
 **Couche d’extraction**
