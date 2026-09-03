@@ -133,7 +133,8 @@ Sources de données
 │   ├── Google Ads
 │   ├── Meta Ads
 │   ├── Bing Ads
-│   └── Taboola
+│   ├── Taboola
+│   └── etc.
 │
 └── Sources externes
     ├── Pages Jaunes
@@ -151,29 +152,30 @@ Couche d’extraction
 Stockage des données — BigQuery
         │
         ▼
-Couche Bronze
-Données brutes et légèrement transformées
-        │
-        ▼
-Couche Silver
-Données nettoyées, normalisées et enrichies
-Données utilisées pour le contrôle qualité
-        │
-        ▼
-Couche Gold
-Tables analytiques prêtes à l’emploi
+Transformation des données
+│
+├── Couche Bronze
+│   └── Données brutes et légèrement transformées
+├── Couche Silver
+│   ├── Données nettoyées, normalisées et enrichies
+│   └── Données utilisées pour le contrôle qualité
+└── Couche Gold
+    └── Tables analytiques prêtes à l’emploi
         │
         ▼
 Orchestration des transformations SQL
-Google Dataform
+│
+└── Google Dataform
         │
         ▼
 Contrôle et alertes automatiques
-Google Apps Script
+│
+└── Google Apps Script
         │
         ▼
 Visualisation des données
-Looker Studio
+│
+└── Looker Studio
 ```
 
 ---
