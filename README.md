@@ -223,6 +223,10 @@ Une attention particulière a été portée aux éléments suivants :
 - la cohérence entre les visualisations
 - la facilité d’utilisation pour les analyses quotidiennes
 
+Voici un aperçu du tableau de bord : 
+
+![alt text](https://github.com/stefanmenardp-commits/data-analyse-pipeline-visualisation-campagne-sea/tree/main/docs/dashboard.png "Capture d'écran du tableau de bord")
+
 ---
 
 ## Stack technique
