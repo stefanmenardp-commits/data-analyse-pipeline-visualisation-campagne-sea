@@ -127,39 +127,54 @@ Les champs et valeurs exacts ne sont pas publiés dans ce référentiel.
 L'architecture générale suivait le schéma suivant :
 
 ```text
-**Sources de données**
-     │
-     ├── Plateformes SEA (GAds, Meta Ads, Bing Ads, Taboola, etc.)
-     ├── Sources externes (Pages jaunes, Données déclaratives utilisateurs)
-     │
-     ▼
-**Couche d’extraction**
-     │
-     ├── Supermetrics -> Google Sheets
-     ├── Scripts Python (Google Cloud Functions ou Google Cloud Run Jobs)
-     │
-     ▼
-**Stockage des données (Big Query)**
-     │
-**Couche Bronze**
+Sources de données
+│
+├── Plateformes SEA
+│   ├── Google Ads
+│   ├── Meta Ads
+│   ├── Bing Ads
+│   └── Taboola
+│
+└── Sources externes
+    ├── Pages Jaunes
+    └── Données déclaratives utilisateurs
+        │
+        ▼
+Couche d’extraction
+│
+├── Supermetrics → Google Sheets
+└── Scripts Python
+    ├── Google Cloud Functions
+    └── Google Cloud Run Jobs
+        │
+        ▼
+Stockage des données — BigQuery
+        │
+        ▼
+Couche Bronze
 Données brutes et légèrement transformées
-     │
-     ▼
-**Couche Argent**
-Données nettoyées, normalisées et enrichies. Données pour le contrôle de la qualité des données.é
-     │
-     ▼
-**Couche Or**
-Tableaux analytiques prêts à l'emploi
-     │
-     ▼
-**Orchestration du code SQL pour les transformations de données (Google Dataform)**
-     │
-     ▼
-**Contrôle et alerte automatique sur la qualité de données (Google Apps Script)**
-     │
-     ▼
-**Visualisation des données (Tableaux de bord Looker Studio)**
+        │
+        ▼
+Couche Silver
+Données nettoyées, normalisées et enrichies
+Données utilisées pour le contrôle qualité
+        │
+        ▼
+Couche Gold
+Tables analytiques prêtes à l’emploi
+        │
+        ▼
+Orchestration des transformations SQL
+Google Dataform
+        │
+        ▼
+Contrôle et alertes automatiques
+Google Apps Script
+        │
+        ▼
+Visualisation des données
+Looker Studio
+```
 
 ---
 
