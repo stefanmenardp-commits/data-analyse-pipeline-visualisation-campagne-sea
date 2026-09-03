@@ -156,9 +156,11 @@ Transformation des données
 │
 ├── Couche Bronze
 │   └── Données brutes et légèrement transformées
+│
 ├── Couche Silver
 │   ├── Données nettoyées, normalisées et enrichies
 │   └── Données utilisées pour le contrôle qualité
+│
 └── Couche Gold
     └── Tables analytiques prêtes à l’emploi
         │
