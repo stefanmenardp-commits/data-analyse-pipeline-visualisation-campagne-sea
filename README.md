@@ -225,7 +225,7 @@ Une attention particulière a été portée aux éléments suivants :
 
 Voici un aperçu du tableau de bord : 
 
-![alt text](https://github.com/stefanmenardp-commits/data-analyse-pipeline-visualisation-campagne-sea/tree/main/docs/dashboard.png "Capture d'écran du tableau de bord")
+![Capture d'écran du tableau de bord](docs/dashboard.png)
 
 ---
 
