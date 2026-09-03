@@ -235,7 +235,7 @@ Une attention particulière a été portée aux éléments suivants :
 | **Orchestration SQL** | `Dataform` |
 | **Visualisation** | `Looker Studio` |
 | **Alerte/Contrôle de données** | `SQL`, `Google Apps Script (JS)` |
-| **Documentation** | Technique et fonctionnelle |
+| **Documentation** | `Technique et fonctionnelle` |
 
 ---
 
