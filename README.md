@@ -14,7 +14,7 @@ Certains diagrammes et illustrations ont pu être recréés à partir d’inform
 
 ## Table des matières
 
-- [Présentation du projet](#aperçu_projet)
+- [Présentation du projet](#aperçu-projet)
 - [Contexte métier](#contexte-metier)
 - [Objectifs](#objectifs)
 - [Mes responsabilités](#mes-responsabilités)
